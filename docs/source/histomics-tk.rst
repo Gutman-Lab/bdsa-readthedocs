@@ -1,4 +1,4 @@
-annotation
+histomicsTK
 ----------------
 
 To login to histomicstk client:
