@@ -6,29 +6,28 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use the BDSA, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install dsa-install
 
 Creating annotation
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To login to girder client use ``login(DSA_API_URL)`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: dsa_helpers.girder_utils.login
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+The ``DSA_API_URL`` parameter should be either ``"username"``, ``"email"``. Otherwise, :py:func:`login(DSA_API_URL)`
 will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
+.. autoexception:: login.InvalidUserError
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+>>> import dsa_helpers
+>>> from dsa_helpers.girder_utils import login
+["bdsa-user1"]
+
 
