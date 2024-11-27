@@ -11,4 +11,4 @@ Contents
    usage
    api
    histomics-tk
-   notebooks/uk-tissue-annotations
+   notebooks/inference-carlos-yolo
