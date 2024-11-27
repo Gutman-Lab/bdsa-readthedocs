@@ -11,4 +11,4 @@ Contents
    usage
    api
    histomics-tk
-   notebooks/inference-carlos-yolo
+   inference-carlos-yolo
