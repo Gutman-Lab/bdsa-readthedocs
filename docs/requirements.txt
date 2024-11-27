@@ -6,4 +6,4 @@ ultralytics
 pathlib
 dsa-helpers
 matplotlib
-opencv-pythoon-headless
+opencv-python-headless
