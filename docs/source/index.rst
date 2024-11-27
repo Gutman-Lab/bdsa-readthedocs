@@ -11,3 +11,4 @@ Contents
    usage
    api
    histomics-tk
+   notebooks/uk-tissue-annotations
