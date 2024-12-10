@@ -1,4 +1,4 @@
-# Function to save image to disk.
+# Function to save image to disk
 import cv2 as cv
 import numpy as np
 
