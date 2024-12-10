@@ -10,5 +10,6 @@ Contents
 
    usage
    api
-   inference-carlos-yolo
    merging-tile-label-masks
+   inference-carlos-yolo
+   
