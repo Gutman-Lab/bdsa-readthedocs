@@ -10,6 +10,5 @@ Contents
 
    usage
    api
-   histomics-tk
    inference-carlos-yolo
-   segformer_model_training
+   merging-tile-label-masks
