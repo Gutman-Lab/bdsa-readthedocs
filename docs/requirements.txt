@@ -7,3 +7,15 @@ pathlib
 dsa-helpers
 matplotlib
 opencv-python-headless
+datasets
+huggingface_hub
+torchvision
+transformers[torch]
+evaluate
+girder-client
+tqdm
+pandas
+numpy
+dsa_helpers
+segments-ai
+scikit-learn
