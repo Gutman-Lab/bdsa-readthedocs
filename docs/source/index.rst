@@ -12,3 +12,4 @@ Contents
    api
    histomics-tk
    inference-carlos-yolo
+   segformer_model_training
